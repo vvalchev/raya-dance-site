@@ -1,8 +1,12 @@
 # Site settings
 title: Raya Dance Station
-description: > # this means to ignore newlines until "baseurl:"
+description: |
+  Учим малките деца на балет, грация, ритъм и музикалност. Упражняваме баланса
+  и координацията. Помагаме и на техните майки да постигнат здрав дух и здраво
+  тяло чрез stretching.
 repository: vvalchev/raya-dance-site
 baseurl: "/raya-dance-site/" # the subpath of your site, e.g. /blog/
+logo: assets/images/logo.svg
 url: "" # the base hostname & protocol for your site
 author: Copyright &copy; 2024 - Raya Dance Station
 lang: bg
