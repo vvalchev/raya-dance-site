@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="bg">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>
+            {% assign title_is_not_empty = page.title | is_not_empty %}{% if title_is_not_empty %}{{ page.title }} - {%
+            endif %}{{ site.title }}
+        </title>
+        <!-- Favicon-->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href=assets/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+        <link rel="manifest" href="assets/site.webmanifest">
+
+        <!-- web fonts-->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.11.0/dist/tabler-icons.min.css"
+            rel="stylesheet"
+        />
+        <!-- Page CSS -->
+        <link href="assets/css/main.css" rel="stylesheet" />
+        {% seo %}
+    </head>
+
+    <body>
+        {% include nav.html section=section site=site page=page %}
+
+        <!-- include page sections -->
+        {% for section in page.sections %} {% include {{ section.type }} section=section site=site page=page %} {%
+        endfor %}
+
+        <!-- include content as section -->
+        {% assign content = content | strip_newlines %} {% if content != "" %}
+        <section class="section default">{{ content }}</section>
+        {% endif %} {{ content }}
+
+        <script src="assets/js/spotlight.bundle.js"></script>
+    </body>
+</html>

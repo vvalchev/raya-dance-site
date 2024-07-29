@@ -1,0 +1,17 @@
+<section class="{{ section.class }}" id="gallery">
+    <h2>{{ section.title }}</h2>
+    <div class="spotlight-group" data-animation="fade">
+        {% assign imgs = site.static_files | where: "gallery", true | sort: "modified_time" %}
+        <!-- show all images -->
+        {% for img in imgs reversed %}
+        <a
+            class="spotlight"
+            href="{{ img.path | relative_url}}"
+            data-title="{{ img.modified_time }}"
+            data-theme="black"
+        >
+            <img src="{{ img.path | relative_url}}" loading="lazy" />
+        </a>
+        {% endfor %}
+    </div>
+</section>

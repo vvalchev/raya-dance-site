@@ -1,0 +1,32 @@
+.pane {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    img {
+        height: 100vh;
+        width: 50vw;
+        object-fit: cover;
+    }
+
+    div {
+        padding: 2rem;
+    }
+
+    &.right img {
+        order: 1;
+    }
+}
+
+@media only screen and (max-width: 48em) {
+    .pane {
+        grid-template-columns: 1fr;
+        img {
+            height: auto;
+            width: 100vw;
+        }
+        &.right img {
+            order: unset;
+        }
+    }
+}

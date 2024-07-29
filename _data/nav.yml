@@ -1,0 +1,19 @@
+logo:
+  - assets/images/logo.svg
+menus:
+  - title: Балет
+    url: /#activities-ballet
+  - title: Стречинг
+    url: /#activities-stretching
+  - title: Мама и дете
+    url: /#activities-mom-kid
+  - title: Учители
+    url: /#team
+  - title: Групи
+    url: /#groups
+  - title: Галерия
+    url: /#gallery
+  - title: FAQ
+    url: /#faq
+  - title: Контакти
+    url: /#contacts

@@ -1,0 +1,13 @@
+<section class="{{ section.class }}" id="{{ section.id }}">
+    <h2>{{ section.title }}</h2>
+    <ul>
+        {% for item in section.team %}
+        <li class="hover-image">
+            <img src="{{ item.image }}" alt="{{ item.name }}" class="image" />
+            <div class="overlay">
+                <div class="text">{{ item.text | markdonify }}</div>
+            </div>
+            {% endfor %}
+        </li>
+    </ul>
+</section>

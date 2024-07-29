@@ -1,0 +1,16 @@
+.faq {
+    padding: 1rem;
+
+    details > p {
+        margin: 1rem;
+    }
+
+    summary {
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    summary:hover {
+        background-color: var(--color-accent1);
+    }
+}

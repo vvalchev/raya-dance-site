@@ -1,0 +1,80 @@
+---
+---
+
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "reset", "theme", "nav", "hero", "section", "pane", "hover-image", "faq";
+
+@mixin responsive-list-grid($columns) {
+    ul {
+        list-style: none;
+        margin-block: 0;
+        padding: 2rem;
+        gap: 2rem;
+        display: grid;
+        grid-template-columns: repeat($columns, 1fr);
+    }
+
+    @media only screen and (max-width: 48em) {
+        ul {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+#team {
+    @include responsive-list-grid(2);
+    img {
+        height: 80vh;
+        object-fit: contain;
+    }
+}
+
+#groups {
+    padding: 2rem 0;
+    background-color: white;
+    @include responsive-list-grid(3);
+
+    li {
+        background-color: var(--color-green);
+        color: var(--color-gray80);
+        width: 100%;
+        padding: 1rem;
+    }
+}
+
+#contacts {
+    display: flex;
+    justify-items: start;
+    align-items: center;
+
+    ul {
+        list-style: none;
+        font-size: 1.5rem;
+    }
+
+    @media only screen and (max-width: 48em) {
+        flex-direction: column;
+
+        #map {
+            order: 2;
+        }
+    }
+}
+
+#gallery {
+    .spotlight-group {
+        column-count: 6;
+        column-gap: 15px;
+    }
+    .spotlight {
+        display: inline-block;
+        width: 100%;
+
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+}

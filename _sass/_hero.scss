@@ -1,0 +1,20 @@
+.hero {
+    min-height: 100vh;
+    padding: 2rem;
+    padding-top: 250px;
+    font-size: 2rem;
+    background: linear-gradient(
+            to bottom,
+            color-mix(in srgb, var(--color-gray80), transparent 20%) 0%,
+            color-mix(in srgb, var(--color-bg), transparent 20%) 100%
+        ),
+        url(../images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.hero h1 {
+    color: var(--color-yellow);
+}

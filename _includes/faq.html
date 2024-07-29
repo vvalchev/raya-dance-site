@@ -1,0 +1,9 @@
+<section class="{{ section.class }}" id="{{ section.id }}">
+    <h2>{{ section.title }}</h2>
+    {% for item in section.questions %}
+    <details>
+        <summary>{{ item.q }}</summary>
+        <p>{{ item.a | markdownify }}</p>
+    </details>
+    {% endfor %}
+</section>

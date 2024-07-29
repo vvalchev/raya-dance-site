@@ -1,0 +1,24 @@
+<section id="contacts">
+    <iframe id="map" width="425" height="350" src="{{ section.map_url }}"></iframe>
+    <ul>
+        <li><i class="ti ti-map-pin"></i>{{ section.address }}</li>
+        <li>
+            <a href="{{ section.facebook }}">
+                <i class="ti ti-brand-facebook"></i>
+                Facebook
+            </a>
+        </li>
+        <li>
+            <a href="{{ section.instagram }}">
+                <i class="ti ti-brand-instagram"></i>
+                Instagram
+            </a>
+        </li>
+        <li>
+            <a href="tel:{{ section.phone }}">
+                <i class="ti ti-phone"></i>
+                {{ section.phone }}
+            </a>
+        </li>
+    </ul>
+</section>

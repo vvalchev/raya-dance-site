@@ -1,0 +1,13 @@
+.section {
+}
+
+.section.primary {
+    background-color: white;
+    color: var(--color-gray80);
+}
+.section.secondary {
+    background-color: var(--color-accent1);
+}
+.section.accent {
+    background-color: var(--color-accent2);
+}

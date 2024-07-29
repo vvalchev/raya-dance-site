@@ -1,0 +1,16 @@
+<section class="{{ section.class }}" id="{{ section.id }}">
+    <h2>{{ section.title }}</h2>
+    <ul>
+        {% for item in section.groups %}
+        <li class="hover-image">
+            <div class="image">
+                <b>{{ item.name }}</b><br />
+                {{ item.text | markdownify }}
+            </div>
+            <div class="overlay">
+                <div class="text">{{ item.schedule | markdownify }}</div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</section>

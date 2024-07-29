@@ -1,0 +1,18 @@
+<nav class="nav">
+    <a href="#top">
+        <img class="logo" src="{{ site.data.nav.logo }}" alt="Logo" />
+    </a>
+
+    <input type="checkbox" id="check" />
+    <label for="check" class="checkbtn">
+        <i class="ti ti-menu-2"></i>
+    </label>
+
+    <ul>
+        {% for item in site.data.nav.menus %}
+        <li>
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>
