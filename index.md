@@ -8,7 +8,7 @@ sections:
 
   - type: 2-side-panel.html
     id: activities-ballet
-    class: default
+    #class:
     title: Балет
     image: assets/images/activities/ballet.jpg
     text: |
@@ -18,7 +18,7 @@ sections:
 
   - type: 2-side-panel.html
     id: activities-stretching
-    class: default right
+    class: right
     title: Стречинг
     image: assets/images/activities/stretching.jpg
     text: |
@@ -64,7 +64,7 @@ sections:
 
   - type: 2-side-panel.html
     id: activities-mom-kid
-    class: default
+    #class:
     title: Мама и дете
     image: assets/images/activities/mom-kid.jpg
     text: |
@@ -97,7 +97,7 @@ sections:
 
   - type: team.html
     id: team
-    #class: section
+    class: section secondary
     title: Нашите учители
     team:
       - name: Рая
@@ -205,6 +205,7 @@ sections:
            такса.
 
   - type: contacts.html
+    class: section secondary
     map_url: https://www.openstreetmap.org/export/embed.html?bbox=23.287349045276645%2C42.679933194608935%2C23.29027265310288%2C42.68122275902178&amp;layer=mapnik
     address: Бул. Цар Борис III 73, София, България
     facebook: https://www.facebook.com/p/Dance-station-Raya-61554613345260

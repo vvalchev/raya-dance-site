@@ -1,14 +1,10 @@
 /* defaults.css */
 :root {
-    /* https://www.fabmood.com/27-spring-colour-palette-perfections-14/ */
-    --color-yellow: #fed44a;
-    --color-green: #a2d5d6;
-    --color-red: #ff3471;
-    --color-bg: #fe9bba;
-    --color-accent1: #fea201;
-    --color-accent2: #ecbeed;
-    --color-gray80: rgba(33, 33, 33, 0.8);
-    --color-gray60: rgba(99, 102, 112, 0.6);
+    --color-bg-primary: white;
+    --color-bg-secondary: #df7799;
+    --color-primary: #e95aa6;
+    --color-overlay: #ead0e4;
+    --color-text: rgba(33, 33, 33, 0.8);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -18,8 +14,8 @@
 }
 
 body {
-    background-color: var(--color-bg);
-    color: white;
+    background-color: var(--color-bg-primary);
+    color: var(--color-text);
     font-family: "Montserrat Alternates", Arial, Helvetica, sans-serif;
 }
 
@@ -29,7 +25,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: var(--color-red);
+    color: var(--color-primary);
 }
 
 p {
@@ -47,6 +43,6 @@ a {
 
 a:hover,
 a.active {
-    color: var(--color-red);
+    color: var(--color-primary);
     transition: color 0.5s;
 }

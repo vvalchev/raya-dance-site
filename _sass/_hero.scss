@@ -5,8 +5,8 @@
     font-size: 2rem;
     background: linear-gradient(
             to bottom,
-            color-mix(in srgb, var(--color-gray80), transparent 20%) 0%,
-            color-mix(in srgb, var(--color-bg), transparent 20%) 100%
+            color-mix(in srgb, var(--color-text), transparent 20%) 0%,
+            color-mix(in srgb, var(--color-bg-secondary), transparent 20%) 100%
         ),
         url(../images/bg.jpg);
     background-position: center;
@@ -16,5 +16,5 @@
 }
 
 .hero h1 {
-    color: var(--color-yellow);
+    color: white;
 }

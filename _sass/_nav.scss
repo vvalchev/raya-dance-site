@@ -6,7 +6,7 @@
     padding: 0 10%;
     width: 100vw;
     opacity: 0.8;
-    background-color: var(--color-gray80);
+    background-color: var(--color-text);
     text-transform: uppercase;
     z-index: 1000;
 }
@@ -39,7 +39,7 @@
 
     .nav ul {
         position: fixed;
-        background-color: var(--color-accent1);
+        background-color: var(--color-overlay);
         top: 80px;
         right: -100%;
         width: 100%;

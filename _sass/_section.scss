@@ -2,12 +2,24 @@
 }
 
 .section.primary {
-    background-color: white;
-    color: var(--color-gray80);
+    background-color: var(--color-bg-primary);
+    color: var(--color-text);
 }
 .section.secondary {
-    background-color: var(--color-accent1);
+    background-color: var(--color-bg-secondary);
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: white;
+    }
+    a:hover {
+        color: var(--color-text);
+    }
 }
 .section.accent {
-    background-color: var(--color-accent2);
+    background-color: var(--color-overlay);
 }
