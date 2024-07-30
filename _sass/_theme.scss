@@ -17,6 +17,10 @@ body {
     background-color: var(--color-bg-primary);
     color: var(--color-text);
     font-family: "Montserrat Alternates", Arial, Helvetica, sans-serif;
+
+    @media (max-width: 768px) {
+        font-size: 0.8rem;
+    }
 }
 
 h1,
