@@ -4,7 +4,7 @@ layout: default
 sections:
   - type: hero.html
     text: |
-      # Развиваме чувство за ритъм и музикалност. Упражняваме баланса и координацията.
+      # Изкуство и спорт в хармония: Танц и сула в Dance Station Raya.
 
   - type: 2-side-panel.html
     id: activities-ballet
