@@ -1,13 +1,5 @@
 ---
 layout: default
-header:
-  title: YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES
-  text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
-  action: # action button is optional
-    label: Find Out More
-    url: '#about'
 
 sections:
   - type: hero.html
