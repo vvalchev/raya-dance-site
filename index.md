@@ -4,7 +4,7 @@ layout: default
 sections:
   - type: hero.html
     text: |
-      # Изкуство и спорт в хармония: Танц и сула в Dance Station Raya.
+      # Изкуство и спорт в хармония: Танц и сила в Dance Station Raya.
 
   - type: 2-side-panel.html
     id: activities-ballet
