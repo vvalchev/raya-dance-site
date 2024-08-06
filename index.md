@@ -228,7 +228,7 @@ sections:
 
   - type: contacts.html
     class: section secondary
-    map_url: https://maps.app.goo.gl/Vk2AhPEd5aTeD2om8
+    map_url: https://www.google.com/maps/place/Dance+station+Raya/@42.6805865,23.2886007,21z/data=!4m6!3m5!1s0x40aa85c8f396f8d9:0x94128c05ea1a6b89!8m2!3d42.6805776!4d23.2888286!16s%2Fg%2F11y312nmmr?entry=ttu
     address: Бул. Цар Борис III 73, София, България
     facebook: https://www.facebook.com/p/Dance-station-Raya-61554613345260
     instagram: https://www.instagram.com/dance_station_raya/
