@@ -121,7 +121,7 @@ sections:
           сцената на Софийска опера и балет в постановки със състава на операта,
           както и на конкурси и състезания. Рая е и бивша национална гимнастичка
           по Спортна гимнастика, 7 кратна национална шампионка, носител и на
-          много международни награди. 
+          много международни награди.
       - name: Криси
         image: assets/images/team/krisi.jpg
         text: |
@@ -202,7 +202,7 @@ sections:
 
           Мама и дете - СЪБОТА И НЕДЕЛЯ
 
-          от 10:00 - 11:00 или 17:00 - 18:00 
+          от 10:00 - 11:00 или 17:00 - 18:00
 
   - type: gallery.html
     class: section secondary
@@ -223,12 +223,12 @@ sections:
           Всичко нужно може да набавите от магазините Decathlon и Grishko.
       - q: Как и къде мога да заплатя?
         a: Заплащането е на месечна база, като опциите са на място или чрез банков превод.
-           
-          
+
+
 
   - type: contacts.html
     class: section secondary
-    map_url: https://www.google.com/maps/place/Dance+station+Raya/@42.6805865,23.2886007,21z/data=!4m6!3m5!1s0x40aa85c8f396f8d9:0x94128c05ea1a6b89!8m2!3d42.6805776!4d23.2888286!16s%2Fg%2F11y312nmmr?entry=ttu
+    map_url: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d169.2352263814401!2d23.2886007!3d42.6805865!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa85c8f396f8d9%3A0x94128c05ea1a6b89!2sDance%20Station%20Raya!5e1!3m2!1sen!2sbg!4v1723047332722!5m2!1sen!2sbg
     address: Бул. Цар Борис III 73, София, България
     facebook: https://www.facebook.com/p/Dance-station-Raya-61554613345260
     instagram: https://www.instagram.com/dance_station_raya/
