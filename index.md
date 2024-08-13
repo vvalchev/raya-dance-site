@@ -136,7 +136,8 @@ sections:
   - type: groups.html
     id: groups
     #class: section
-    title: Групи
+    title: Групи (Кликни на прозорчето) 
+
     groups:
       - name: Предучилищна група (4 - 5.5 годишни)
         text: |
