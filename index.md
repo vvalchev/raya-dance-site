@@ -233,6 +233,6 @@ sections:
     address: Бул. Цар Борис III 73, София, България
     facebook: https://www.facebook.com/p/Dance-station-Raya-61554613345260
     instagram: https://www.instagram.com/dance_station_raya/
-    phone: +359 89 686 778
+    phone: +359 89 686 7784
 
 ---
